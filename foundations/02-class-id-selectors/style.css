@@ -1,15 +1,21 @@
-p {
+ .oddClass {
     color:#000000;
     background-color: #d18585;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div {
-    color:rgb(79, 131, 228);
-    font-size: 32px;
+
+#twoID {
+    color:#0000ff;
+    font-size: 36px;
 }
-div + p {
-    color:rgb(0, 0, 0);
-    background-color: #d18585;
+
+.oddClass .cooler {
     font-size: 24px;
+}
+
+#fourID {
+    background-color:#2edd2e;
+    font-weight: bold;
+    font-size:24px;
 
 }
