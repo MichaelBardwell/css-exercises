@@ -1,0 +1,15 @@
+p {
+    color:#000000;
+    background-color: #d18585;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    color:rgb(79, 131, 228);
+    font-size: 32px;
+}
+div + p {
+    color:rgb(0, 0, 0);
+    background-color: #d18585;
+    font-size: 24px;
+
+}
